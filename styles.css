@@ -1,0 +1,39 @@
+       
+    h4 {
+        margin-bottom: 15px;
+    }
+    
+    body {
+        background-color: #f3f7dc;
+    }
+
+    form {
+        margin: 35px;
+        padding: 15px;
+    }
+    
+    span img {
+        margin: 10px;
+    }
+
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+   
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    button {
+        float: right;
+    }
+
+    @media (max-width: 480px) { 
+        .col-xxs {
+            display:block;
+            float:none;
+            width: 100%
+        }
+   }
