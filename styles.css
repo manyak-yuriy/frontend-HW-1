@@ -28,6 +28,7 @@
 
     button {
         float: right;
+           /* Don't use global button selector. In this case ALL buttons in you solution will be floating */
     }
 
     @media (max-width: 480px) { 
