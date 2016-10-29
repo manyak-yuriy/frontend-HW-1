@@ -1,0 +1,59 @@
+{
+    "rolls":
+    [
+		{
+			"name": "‘иладельфи€ с хи€ши",
+			"image": "1.jpeg",
+			"price": "46",
+			"weight": "190",
+			"pieces": "6",
+			"energy": "368",
+			"ingredients": ["рис", "угорь", "сыр филадельфи€", "огурец", "кунжут"]
+		},
+		{
+			"name": "",
+			"image": "",
+			"price": "",
+			"weight": "",
+			"pieces": "",
+			"energy": "",
+			"ingredients": []
+		},
+		{
+			"name": "",
+			"image": "",
+			"price": "",
+			"weight": "",
+			"pieces": "",
+			"energy": "",
+			"ingredients": []
+		}
+    ],
+	"soups":
+	[
+		{
+			"name": " лер суп",
+			"image": "3.jpeg",
+			"price": "24",
+			"weight": "100",
+			"energy": "500",
+			"ingredients": ["вода", "соль", "перец"]
+		},
+		{
+			"name": "",
+			"image": "",
+			"price": "",
+			"weight": "",
+			"energy": "",
+			"ingredients": []
+		},
+		{
+			"name": "",
+			"image": "",
+			"price": "",
+			"weight": "",
+			"energy": "",
+			"ingredients": []
+		}
+    ]
+}

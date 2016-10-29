@@ -55,24 +55,26 @@
   </div>
 </div>
 
-<form class="row">
-    <div class="col-md-offset-2 col-md-2 col-xs-6">
-        <input type="radio" name="selected" value="all" checked="checked"> Все
-    </div>
-  
-    <div class="col-md-2 col-xs-6">
-        <input type="radio" name="selected" value="popular"> Популярные
-    </div>
-
-    <div class="col-md-2 col-xs-6">
-        <input type="radio" name="selected" value="discounts"> Акции
-    </div>
-
-    <div class="col-md-2 col-xs-6">
-        <input type="radio" name="selected" value="new"> Новинки
-    </div>
+<div class="container-fluid">
+  <form class="row">
+      <div class="col-md-offset-2 col-md-2 col-xs-6">
+          <input type="radio" name="selected" value="all" checked="checked"> Все
+      </div>
     
-</form>
+      <div class="col-md-2 col-xs-6">
+          <input type="radio" name="selected" value="popular"> Популярные
+      </div>
+
+      <div class="col-md-2 col-xs-6">
+          <input type="radio" name="selected" value="discounts"> Акции
+      </div>
+
+      <div class="col-md-2 col-xs-6">
+          <input type="radio" name="selected" value="new"> Новинки
+      </div>
+      
+  </form>
+</div>
 
 <div class="container">
   <div class="row well">
@@ -82,15 +84,12 @@
       <div class="panel panel-default">
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
-            <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
-          <!-- it seems it works without hardcoded style. At least in chrome --> 
-
-            <div class="row">
-              <!-- div with class row should be in the div with class container or container-fluid -->
-              <!-- don't use grid system with inner content. use pull-left and pull right bootstrap classes -->
-                <div class="col-xs-8"><strong>63 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <img src="Sushi_img/1.jpeg" class="img-responsive" alt="Image">
+          <!-- Fixed: "it seems it works without hardcoded style. At least in chrome"" --> 
+              <!-- Fixed: div with class row should be in the div with class container or container-fluid -->
+              <!-- Fixed: don't use grid system with inner content. use pull-left and pull right bootstrap classes -->
+                <div class="pull-left"><strong>66 грн</strong></div>
+                <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -103,12 +102,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
-            <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/1.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">             
-                <div class="col-xs-8"><strong>63 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>66 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -121,12 +118,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
-            <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/1.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>63 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>66 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -139,12 +134,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
-            <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/1.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>63 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>66 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -157,12 +150,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
-            <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/1.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>63 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>66 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -182,12 +173,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Удон с морепродуктами</div>
         <div class="panel-body">
-            <img src="Sushi_img/3.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/3.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>55 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>66 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -201,12 +190,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Удон с морепродуктами</div>
         <div class="panel-body">
-            <img src="Sushi_img/3.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/3.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>55 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>55 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -220,12 +207,10 @@
       <div class="panel panel-default">
         <div class="panel-heading">Удон с морепродуктами</div>
         <div class="panel-body">
-            <img src="Sushi_img/3.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="Sushi_img/3.jpeg" class="img-responsive" alt="Image">
 
-            <div class="row">
-                <div class="col-xs-8"><strong>55 грн</strong></div>
-                <div class="col-xs-4"><button>Заказать</button></div>
-            </div>
+            <div class="pull-left"><strong>55 грн</strong></div>
+            <div class="pull-right"><button>Заказать</button></div>
         </div>
 
         <div class="panel-footer">
@@ -235,25 +220,23 @@
     </div>
 
   </div>
-</div><br><br>
+</div>
+
+<br><br>
 
 <footer class="container-fluid">
   
-  <span><img src="justvector/png/facebook.png" alt="facebook"></span>
   <!-- here you should use <a href> instead span. We expect clicking on these images -->
-  <span><img src="justvector/png/google.png" alt="google"></span>
-  <span><img src="justvector/png/twitter_alt.png" alt="twitter"></span>
-  <span><img src="justvector/png/youtube.png" alt="youtube"></span>
-  <span><img src="justvector/png/tumblr.png" alt="tumblr"></span>
+  <a href="#"><img src="justvector/png/facebook.png" alt="facebook"></a>
+  <a href="#"><img src="justvector/png/google.png" alt="google"></a>
+  <a href="#"><img src="justvector/png/twitter_alt.png" alt="twitter"></a>
+  <a href="#"><img src="justvector/png/youtube.png" alt="youtube"></a>
+  <a href="#"><img src="justvector/png/tumblr.png" alt="tumblr"></a>
 
-  <span class="delivery-info">
-      <span>
-          
-      </span>
-  </span>
+  <br/>
 
-  <br/><div style="text-align: center;">&copy Softheme Все права защищены</div>
-  <!-- don't use style. use text-center bootstrap class instead -->
+  <div class="text-center">&copy Softheme Все права защищены</div>
+  <!-- Fixed: don't use style. use text-center bootstrap class instead -->
 
 </footer>
 
