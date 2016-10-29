@@ -83,8 +83,11 @@
         <div class="panel-heading">Калифорнийский унаги</div>
         <div class="panel-body">
             <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+          <!-- it seems it works without hardcoded style. At least in chrome --> 
 
             <div class="row">
+              <!-- div with class row should be in the div with class container or container-fluid -->
+              <!-- don't use grid system with inner content. use pull-left and pull right bootstrap classes -->
                 <div class="col-xs-8"><strong>63 грн</strong></div>
                 <div class="col-xs-4"><button>Заказать</button></div>
             </div>
@@ -102,7 +105,7 @@
         <div class="panel-body">
             <img src="Sushi_img/1.jpeg" class="img-responsive" style="width:100%" alt="Image">
 
-            <div class="row">
+            <div class="row">             
                 <div class="col-xs-8"><strong>63 грн</strong></div>
                 <div class="col-xs-4"><button>Заказать</button></div>
             </div>
@@ -237,6 +240,7 @@
 <footer class="container-fluid">
   
   <span><img src="justvector/png/facebook.png" alt="facebook"></span>
+  <!-- here you should use <a href> instead span. We expect clicking on these images -->
   <span><img src="justvector/png/google.png" alt="google"></span>
   <span><img src="justvector/png/twitter_alt.png" alt="twitter"></span>
   <span><img src="justvector/png/youtube.png" alt="youtube"></span>
@@ -249,6 +253,7 @@
   </span>
 
   <br/><div style="text-align: center;">&copy Softheme Все права защищены</div>
+  <!-- don't use style. use text-center bootstrap class instead -->
 
 </footer>
 
