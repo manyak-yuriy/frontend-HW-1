@@ -25,10 +25,6 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
-/*
-    button {
-        float: right;
-    }*/
 
     @media (max-width: 480px) { 
         .col-xxs {
@@ -36,8 +32,4 @@
             float:none;
             width: 100%
         }
-   }
-
-   .lol, .lol-r {
-       border: 1px solid red;
    }
